@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="avatar_small">80dp</dimen>
+    <dimen name="margin_basic">8dp</dimen>
+    <dimen name="margin_separation">20dp</dimen>
+    <dimen name="textsize_header">40sp</dimen>
+</resources>

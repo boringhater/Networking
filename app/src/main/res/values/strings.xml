@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IOS HUETA</string>
+    <string name="filter">Filter</string>
+    <string name="filter_characters">Filter characters</string>>
+    <string name="species_gender_status">%s, %s, %s</string>
+    <string name="location">Location</string>
+    <string name="origin">Origin</string>
+    <string name="status">Status</string>
+    <string name="alive">Alive</string>
+    <string name="dead">Dead</string>
+    <string name="unknown">Unknown</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="genderless">Genderless</string>
+    <string name="gender">Gender</string>
+    <string name="reset_filtration">Reset filtration</string>
+</resources>

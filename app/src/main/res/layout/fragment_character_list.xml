@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/primaryColor"
+    android:animateLayoutChanges="true">
+    <androidx.recyclerview.widget.RecyclerView
+        tools:context=".CharactersListFragment"
+        android:padding="@dimen/margin_basic"
+        android:id="@+id/characters_recycler_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        app:flow_horizontalAlign="center"
+        app:spanCount="3"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/filterFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/margin_separation"
+        android:contentDescription="@string/filter_characters"
+        android:src="@drawable/ic_filter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/primaryTextColor" />
+</androidx.constraintlayout.widget.ConstraintLayout>
